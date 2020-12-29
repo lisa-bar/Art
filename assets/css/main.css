@@ -1087,6 +1087,8 @@ textarea {
 .image img {
   display: block;
   width: 100%;
+  min-height: 20rem;
+  max-height: 20rem;
 }
 
 .image.featured {
@@ -2337,8 +2339,7 @@ body.is-touch .main {
 /* Intro */
 
 #intro {
-  background: url("https://picsum.photos/1920/1080?random"),
-    url("../../images/intro.jpg");
+  background: url("../../images/art/art05.jpeg"), url("../../images/intro.jpg");
   background-size: cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
@@ -2348,7 +2349,7 @@ body.is-touch .main {
 /* One */
 
 #one {
-  background: url("https://picsum.photos/1920/800?random");
+  background: url("../../images/art/art09.jpeg");
   background-attachment: fixed, fixed;
   background-position: top left, center center;
 }
@@ -2356,7 +2357,7 @@ body.is-touch .main {
 /* Two */
 
 #two {
-  background: url("https://picsum.photos/1920/1000?random");
+  background: url("../../images/art/art14.jpeg");
   background-attachment: fixed, fixed;
   background-position: top left, center center;
 }
